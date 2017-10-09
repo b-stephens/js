@@ -16,82 +16,45 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Javascript Event Listeners</a>
+			<a class="navbar-brand" href="addition.html">Javascript Event Listeners</a>
 		</div>
 		<div id="navbar" class="collapse navbar-collapse pull-right">
 			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="addition.html">Addition</a></li>
+				<li><a href="uppercase.html">Uppercase</a></li>
 			</ul>
-		</div>
+		</div><!--/.nav-collapse -->
 	</div>
 </nav>
 
-<div class="container">
-	<div class="row">
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>Click event</h3>
-			<button class="buttons" id="btn1">Click Me</button>
-		</div>
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>Mouse Down event</h3>
-			<button class="buttons" id="btn2">Mouse Down</button>
-		</div>
+<div class="container sidePadding">
+	<header>
+		<h1>Javascript Event Listeners</h1>
 
 
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>Mouse Up event</h3>
-			<button class="buttons" id="btn3">Mouse Up</button>
-		</div>
+	</header>
+	<main>
+		<h4>Pictures</h4>
+		<ul>
+			<li><h3><a data-img="elon-pic" id="elon" href="#">Elon Musk</a></h3></li>
+			<li><h3><a data-img="tim-pic" id="tim" href="#">Tim Cook</a></h3></li>
+			<li><h3><a data-img="jeff-pic" id="jeff" href="#">Jeff Bezos</a></h3></li>
+		</ul>
+
+		<img class="hide" id="elon-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/408px-Elon_Musk_2015.jpg">
+		<img class="hide" id="tim-pic" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tim_Cook_2009_cropped.jpg">
+		<img class="hide" id="jeff-pic" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Jeff_Bezos_2016.jpg" alt="">
 
 
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>Mouse Enter event</h3>
-			<button class="buttons" id="btn4">Mouse Enter</button>
-		</div>
-
-
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>Mouse Leave event</h3>
-			<button class="buttons" id="btn5" >Mouse Leave</button>
-		</div>
-
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>Keypress event</h3>
-			<input type="" name="" id="input1" class="input">
-			<br><br>
-			<br><br>
-
-		</div>
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>keydown event</h3>
-			<input type="" name="" id="input2" class="input">
-		</div>
-
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>keyup event</h3>
-			<input type="" name="" id="input3" class="input">
-		</div>
-
-		<div class="col-md-6 col-xs-6 padding">
-			<h3>submit event</h3>
-			<form>
-				<input type="text" name="name">
-				<input type="submit" name="submit">
-			</form>
-		</div>
-
-	</div>
-
+	</main>
 </div>
 
-<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>
